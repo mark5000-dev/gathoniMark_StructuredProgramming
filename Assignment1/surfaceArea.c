@@ -4,7 +4,9 @@
 int main(void) {
     double r;
     printf("Enter radius: ");
-    if (scanf("%lf", &r) != 1 || r < 0) {
+
+    // check for invalid input
+    if (scanf("%lf", &r) != 1 || r <= 0) {
         printf("Invalid input.\n");
         return 1;
     }
