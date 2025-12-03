@@ -3,7 +3,7 @@
 
 // Simple calculator program
 int main(void) {
-    int numberA = 0, numberB = 0, result = 0, operation = -1;
+    int numberA = 0, numberB = 0,result = 0, operation = 0;
     const char *operationName = NULL;
     bool operationTaken = false;
     bool invalidInput = false; // A
