@@ -78,7 +78,7 @@ int main(){
             exit = false;
             result = 0;
             inputsTaken = false;
-            printf("\n\n");
+            printf("\033[2J\033[H"); //Clear the terminal and place the cursor at the top left
         }
     }
 }
