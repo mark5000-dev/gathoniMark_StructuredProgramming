@@ -1,4 +1,4 @@
-# Consolidated Bank ATM - C Project
+# Adversary Bank ATM - C Project
 
 A simple mock ATM machine implemented in C. Users can log in with a PIN, check balance, deposit, and withdraw funds. Designed as a learning project for practicing C programming, pointers, and modular design.
 

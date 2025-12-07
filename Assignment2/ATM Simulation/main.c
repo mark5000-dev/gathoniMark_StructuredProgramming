@@ -15,7 +15,7 @@ int main()
     bool end = false, loggedIn;
     int choice;
 
-    printf("======== Consolidated Bank ATM ========\n");
+    printf("======== Adversary Bank ATM ========\n");
     loggedIn = login();
 
     while (loggedIn && !end) {
@@ -54,7 +54,7 @@ int main()
 //
 void menu(){
     printf("\033[2J\033[H");
-    printf("======== Consolidated Bank ATM ========\n");
+    printf("======== Adversary Bank ATM ========\n");
     printf("These are the Services Available:\n \
             1.Check Balance\n \
             2.Deposit\n \
