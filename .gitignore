@@ -1,2 +1,13 @@
-*.exe
+# Object files
 *.o
+
+# Executables
+*.exe
+*.out
+
+# Code::Blocks
+*.layout
+*.depend
+*.cbp.bak
+bin/
+obj/
