@@ -81,7 +81,8 @@ bool input(int *choice){
 
 void pauseScreen(void){
     printf("\nPress Enter to continue...");
-    while(getchar() != '\n');
+    int c;
+    while((c = getchar()) != '\n' && c != EOF);
     getchar();
 
 }
