@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int rows = 6, cols = 4;
+    int arr[6][4];
+
+    // Initialize with sample values (row * 10 + col)
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < cols; j++) {
+            arr[i][j] = (i * 10) + j;
+        }
+    }
+
+    // Traverse and print
+    printf("2D Array elements:\n");
+    for(int i = 0; i < rows; i++) {
+        for(int j = 0; j < cols; j++) {
+            printf("%d\t", arr[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
